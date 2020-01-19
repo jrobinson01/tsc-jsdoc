@@ -1,0 +1,18 @@
+{
+  "name": "tsc-jsdoc",
+  "version": "0.0.0",
+  "description": "An experiment in tsc and jsdoc for javascript",
+  "main": "index.js",
+  "author": "jrobinsonmedia@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^3.16.4",
+    "typescript": "^3.7.5"
+  }
+}
