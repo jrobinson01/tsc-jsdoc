@@ -7,6 +7,6 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "package-a":"1.0.0"
+    "package-a": "1.0.0"
   }
 }

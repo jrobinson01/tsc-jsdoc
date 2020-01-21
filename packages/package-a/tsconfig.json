@@ -1,3 +1,10 @@
 {
-  "extends": "../../tsconfig.json"
+  "extends":"../../tsconfig",
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "moduleResolution": "node"
+  },
+  "include":["index.js"]
 }
