@@ -11,4 +11,8 @@ example 4 - JSDoc, tsconfig.json and npm scripts
 
 example 5 - JSDoc, tsconfig, npm scripts and .d.ts files
 
+notes:
+up until example-3, using one tsconfig at the root of the project, vscode is able to make sense of everything.
+adding "typecheck":"tsc" script to each package, and then running "lerna run typecheck" in the root however, fails
+to find any type errors and says all is good.
 

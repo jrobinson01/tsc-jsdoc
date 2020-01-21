@@ -9,6 +9,5 @@
     "noEmit": true,
     "noImplicitThis": true,
     "noUnusedParameters": false
-  },
-  "exclude": ["node_modules"]
+  }
 }
